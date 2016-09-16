@@ -5,6 +5,7 @@ import MessageList from './Messages/MessageList.jsx';
 import MessageForm from './Messages/MessageForm.jsx';
 import UserList from './Users/UserList.jsx';
 import UserForm from './Users/UserForm.jsx';
+import moment from 'moment';
 
 class App extends Component{
 	constructor(props){
@@ -12,7 +13,7 @@ class App extends Component{
 		this.state = {
 			status: 'disconnected',
 			messages: [{
-				timeStamp: Date.now,
+				timeStamp: moment(),
 				text: "Welcome to SocketChat"
 			}],
 			users:[],

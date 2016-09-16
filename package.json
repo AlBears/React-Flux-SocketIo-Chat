@@ -8,15 +8,16 @@
   },
   "author": "ALB",
   "license": "ISC",
-  "devDependencies":{
+  "devDependencies": {
     "babel-core": "5.8.*",
     "babel-loader": "5.3.*",
     "webpack": "1.12.*"
   },
-  "dependencies":{
+  "dependencies": {
+    "express": "*",
+    "moment": "^2.15.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "express": "*",
     "socket.io": "*",
     "socket.io-client": "*"
   }
